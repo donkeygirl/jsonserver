@@ -18,13 +18,14 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/donkeygirl/jsonserver/issues"
-  },  
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "webpack-cli": "^5.0.1"
   }
 }
