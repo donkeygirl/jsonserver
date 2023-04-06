@@ -1,0 +1,30 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "homepage": "https://donkeygirl.github.io/jsonserver",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donkeygirl/jsonserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donkeygirl/jsonserver/issues"
+  },  
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
