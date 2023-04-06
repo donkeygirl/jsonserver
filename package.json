@@ -1,5 +1,5 @@
 {
-  "name": "test_api",
+  "name": "jsonserver",
   "version": "1.0.0",
   "homepage": "https://donkeygirl.github.io/jsonserver",
   "description": "",
@@ -7,7 +7,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
