@@ -7,8 +7,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js",
-    "build": "gh-pages -d build"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
